@@ -7,7 +7,8 @@
   color: #333333;
 }
 
-header {background:#333333; color: #eee;
+header {
+  background:#333333; color: #eee;
 }
 
 h1 {
@@ -21,6 +22,11 @@ h1 {
 
 h2 {
   font-size: 24px;
+  margin-left: 108px;
+}
+
+div {
+  display: inline
 }
 
 .container {
@@ -32,20 +38,23 @@ h2 {
   #bio-image,
   #contact-info {
     float: left;
+    margin-left: 100px;
   }
 
   #bio-image {
     width: 200px;
     height: 200px;
-    margin-right: 20px;
   }
 
   #main-bio {
-    width: 70%;
+    width: 40%;
+    margin-left: 50px
+
   }
 
   #contact-info {
     width: 30%;
+    float: right
   }
 
   a {
@@ -54,10 +63,4 @@ h2 {
 
 /*
 
-h1 {
-  margin: 0;
-  margin-bottom: 20px;
- 
-}
-
-*/
+    
